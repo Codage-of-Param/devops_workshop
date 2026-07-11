@@ -11,7 +11,7 @@ app.use(cors());
 
 app.get('/ping', (req,res) => {
     res.send({
-        message: "Hello Word2Vec!"
+        message: "hELLO Word2Vec!, This is a running port"
     });
 });
 
